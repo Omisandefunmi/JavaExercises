@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class StudentLetterGrade {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int aCounter = 0;
-        int bCounter = 0;
-        int cCounter = 0;
-        int dCounter = 0;
+        int numberOfAEntered = 0;
+        int numberOfBEntered = 0;
+        int numberOfCEntered = 0;
+        int numberOfDEntered = 0;
 
         for (int i = 1; i <= 5; i++) {
 
@@ -19,23 +19,25 @@ public class StudentLetterGrade {
 
             switch (grades) {
                 case "A":
-                    aCounter++;
+                    numberOfAEntered++;
                     break;
                 case "B":
-                    bCounter++;
+                    numberOfBEntered++;
                     break;
                 case "C":
-                    cCounter++;
+                    numberOfCEntered++;
                     break;
                 case "D":
-                    dCounter++;
+                    numberOfDEntered++;
                     break;
+                default:
+                    System.out.println("You have entered an invalid grade");
             }
 
         }
-        System.out.println(aCounter + " scored A");
-        System.out.println(bCounter + " scored B");
-        System.out.println(cCounter + " scored C");
-        System.out.println(dCounter + " scored D");
+        System.out.println(numberOfAEntered + " students scored A");
+        System.out.println(numberOfBEntered + " students scored B");
+        System.out.println(numberOfCEntered + " students scored C");
+        System.out.println(numberOfDEntered + " students scored D");
     }
 }
