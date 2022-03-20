@@ -27,8 +27,9 @@ public class Question2_24 {
         System.out.println("Enter fifth integer");
         number5 = input.nextInt();
 
-        if (number < number2 && number < number3 && number < number4 && number < number5)
-        System.out.println(number+ " is the smallest integer");
+        if (number < number2 && number < number3 && number < number4 && number < number5) {
+            System.out.println(number + " is the smallest integer");
+        }
 
 
         else if (number2 < number && number2 < number3 && number2 < number4 && number2 < number5)

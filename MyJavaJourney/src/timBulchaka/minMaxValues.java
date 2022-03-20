@@ -3,8 +3,8 @@ package timBulchaka;
 public class minMaxValues {
 
     public static void main(String[] args) {
-        long myMinLongValue = Long.MIN_VALUE;
-        long myMaxLongValue = Long.MAX_VALUE;
+        int myMinIntegerValue = Integer.MIN_VALUE;
+        int myMaxIntegerValue = Integer.MAX_VALUE;
 
         /*double myMinDoubleValue = Double.MIN_VALUE;
         double myMaxDoubleValue = Double.MAX_VALUE;
@@ -22,7 +22,7 @@ public class minMaxValues {
         double howValue = 5.90009;
 
          */
-        System.out.println(myMaxLongValue);
+        System.out.println(myMaxIntegerValue);
     }
 
 

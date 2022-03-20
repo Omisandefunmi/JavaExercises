@@ -11,18 +11,25 @@ public class AirConditioner {
         this.productName = productName;
         this.color = color;
     }
-    public void decreaseTemperature(){
+    public void decreaseTemperature(int degree){
+        if (degree < temperature && temperature >= 16)
+            temperature = temperature - 1;
     }
     public String getProductName(){ return productName;}
     public int getTemperature() {return temperature;}
 
-    public void increaseTemperature(){
+    public void increaseTemperature(int degree){
+        if (degree > temperature && temperature <= 30)
+            temperature = temperature + 1;
     }
     public void setOn(boolean isOn){
+        this.isOn = isOn;
     }
     public void setProductName(String productName){
+        this.productName = productName;
     }
 
     public void setTemperature(int temperature) {
+        temperature = temperature;
     }
 }
