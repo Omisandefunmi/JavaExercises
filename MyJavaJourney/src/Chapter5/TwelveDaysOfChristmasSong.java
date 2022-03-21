@@ -39,36 +39,59 @@ of_Christmas_(song) for the lyrics of the song.*/
                 case 5:
                     System.out.println("On the fifth day of Christmas, my true love sent to me");
                     break;
+                case 6:
+                    System.out.println("On the Sixth day of Christmas, my true love sent to me");
+                    break;
+                case 7:
+                    System.out.println("On the seventh day of Christmas, my true love sent to me");
+                    break;
+                case 8:
+                    System.out.println("On the eighth day of Christmas, my true love sent to me");
+                    break;
+                case 9:
+                    System.out.println("On the ninth day of Christmas, my true love sent to me");
+                    break;
+                case 10:
+                    System.out.println("On the tenth day of Christmas, my true love sent to me");
+                    break;
+                case 11:
+                    System.out.println("On the eleventh day of Christmas, my true love sent to me");
+                    break;
+                case 12:
+                    System.out.println("On the twelfth day of Christmas, my true love sent to me");
+                    break;
 
                 default:
                     System.out.println("incorrect entry");
+                    break;
             }
 
             switch (day){
                 case 12:
-                    System.out.println("12 days");
+                    System.out.println("12 drummers drumming,");
                 case 11:
-                    System.out.println("11 days");
+                    System.out.println("11 Eleven pipers piping,");
                 case 10:
-                    System.out.println("10 days");
+                    System.out.println("10 lords a-leaping,");
                 case 9:
-                    System.out.println("9 days");
+                    System.out.println("9 ladies dancing,");
                 case 8:
-                    System.out.println("8 days");
+                    System.out.println("8 maids a-milking,");
                 case 7:
-                    System.out.println("7 days");
+                    System.out.println("7 swans a-swimming,");
                 case 6:
-                    System.out.println("6 days");
+                    System.out.println("6 geese are laying,");
                 case 5:
-                    System.out.println("5 days");
+                    System.out.println("5 golden rings....,");
                 case 4:
-                    System.out.println("4 days");
+                    System.out.println("4 calling birds,");
                 case 3:
-                    System.out.println("3 days ");
+                    System.out.println("3 French hens, ");
                 case 2:
-                    System.out.println("2 days");
+                    System.out.println("2 turtle doves and ");
+
                 case 1:
-                    System.out.println("1 days");
+                    System.out.println("a partridge in a pear tree");
             }
 
             System.out.println("Enter day");
