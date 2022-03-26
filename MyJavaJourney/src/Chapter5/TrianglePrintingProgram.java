@@ -1,6 +1,9 @@
 package Chapter5;
 
 public class TrianglePrintingProgram {
+
+
+
     public static void main(String[] args) {
        /* (Triangle Printing Program) Write an application that displays the following
         patterns separately, one below the other. Use for loops to generate the patterns.
@@ -48,16 +51,37 @@ public class TrianglePrintingProgram {
 //        }
 
         for (int loopCount = 10; loopCount >= 1; loopCount--) {
-            for (int spaceCount = 1; spaceCount <= (10 - loopCount); spaceCount++) {
-                System.out.print(" ");
-            }
+            for (int spaceCount = 0; spaceCount <= (loopCount); spaceCount++) {
+                System.out.print("#");
 
-                for (int characterCount = 1; characterCount <= loopCount; characterCount++) {
+
+                for (int characterCount = 1; characterCount >= spaceCount; characterCount--) {
                     System.out.print("*");
                 }
                 System.out.println();
             }
+            }
+
+//        for (int loopCount = 1; loopCount <= 10; loopCount--) {
+//            for (int spaceCount = 10; spaceCount <= (loopCount - 1); spaceCount--) {
+//                System.out.print(" ");
+//            }
+//
+//            for (int characterCount = 10; characterCount >= loopCount; characterCount--) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+        int n = 10;
+        for (int i = 1; i <= 10 ; i++) {
+
+        for (int loop = n; loop <= 10 ; loop++) {
+            System.out.println("* ");
+        }
+
+
         }
     }
+}
 
 
